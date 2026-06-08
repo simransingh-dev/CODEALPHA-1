@@ -239,3 +239,41 @@ footer{
         justify-content:center;
     }
 }
+
+/* Theme Toggle Button */
+#theme-toggle{
+    padding:8px 12px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+/* Dark Mode */
+body.dark-mode{
+    background:#121212;
+    color:#ffffff;
+}
+
+body.dark-mode .skills,
+body.dark-mode .resume{
+    background:#1e1e1e;
+}
+
+body.dark-mode .card,
+body.dark-mode .project-card{
+    background:#2a2a2a;
+    color:white;
+    box-shadow:0 0 10px #444;
+}
+
+body.dark-mode .placeholder{
+    background:#444;
+}
+
+body.dark-mode input,
+body.dark-mode textarea{
+    background:#2a2a2a;
+    color:white;
+    border:1px solid #555;
+}
