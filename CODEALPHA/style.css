@@ -277,3 +277,13 @@ body.dark-mode textarea{
     color:white;
     border:1px solid #555;
 }
+
+.cursor{
+    animation: blink 0.8s infinite;
+}
+
+@keyframes blink{
+    50%{
+        opacity: 0;
+    }
+}
